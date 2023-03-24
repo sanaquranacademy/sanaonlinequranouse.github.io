@@ -1,0 +1,243 @@
+nav .navbar-nav li a {
+  color:  #9dc08b !important;
+}
+
+nav .navbar-nav li a:hover {
+  color: #EDF1D6 !important;
+}
+
+.logo {
+  width: 100px;
+}
+
+header .nav-fixed {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+  background-color: #fff;
+  box-shadow: 5px -1px 12px -5px grey;
+}
+
+.btn-outline {
+  border: none;
+}
+
+body {
+  font-family: "sono";
+  font-weight: 700;
+}
+
+.registeration-btn {
+  margin-top: 6px;
+  border: none;
+ color: #40513b;
+  background-color: #edf1d6;
+  border-radius: 10px;
+  padding: 4px;
+}
+.registeration-btn:hover {
+  color: #9dc08b;
+  background-color:#2C3333;
+}
+
+.carousel-item {
+  height: 70vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-headings{
+  font-family: "sono";
+  font-weight: 700;
+  color: #40513b;
+}
+
+#welcome {
+  margin-top: 30px;
+  display: flex;
+}
+
+#welcome h1 {
+  font-family: "sono";
+  font-weight: 700;
+  color: #40513b;
+  text-align: center;
+}
+
+#welcome h5{
+  text-align: center;
+}
+
+.img-bio {
+
+  margin: 50px 25px 25px 25px;
+}
+
+.online-quran {
+  border-radius: 100%;
+  width: 25%;
+  height: 25%;
+}
+
+#trial {
+  margin: 20px 0;
+  text-align: center;
+}
+
+
+
+.main-theme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 25px;
+}
+
+.main-theme h1,
+.main-theme h2 {
+  font-family: "sono";
+  font-weight: 700;
+  color: #9dc08b;
+}
+
+
+
+#courses h1 , #fee h1 {
+  font-family: "sono";
+  font-weight: 700;
+  color: #40513b;
+  text-align: center;
+}
+.course-img{
+  width: 30%; 
+  height: 50%;
+  margin-bottom: 5px;
+}
+
+.basic, .tajweed, .memorization{
+  text-align: center;
+   border: solid 1px #9dc08b;
+   margin :5px 0;
+   padding: 10px 5px 0 5px;
+}
+
+
+#courses h3 {
+  font-family: 'sono';
+  font-weight: 700;
+  color : #9dc08b;
+  text-align: center;
+}
+
+
+ .card1:hover {
+      background:#9DC08B;
+      border:1px solid #9DC08B;
+    }
+
+
+    .card2:hover {
+      background:#9DC08B;
+      border:1px solid #9DC08B;
+    }
+
+
+    .card3:hover {
+      background:#9DC08B;
+      border:1px solid #9DC08B;
+    }
+
+
+
+    .card:hover .btn-outline-dark{
+      color:white;
+      background:#212529;
+    }
+
+#fee{
+  margin-top: 50px;
+}
+
+
+.trial-btn {
+  background:  #2C3333;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #edf1d6;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.trial-btn:hover {
+  background:#9DC08B;
+  text-decoration: none;
+  color:#2C3333;
+}
+
+#trial {
+  text-align: center;
+  background-color: #609966;
+  width:50% ;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#trial p{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #40513b;
+}
+
+#social-links{
+  text-align: center;
+}
+
+.social-links{
+  color: #609966;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.social-links:hover{
+  color: #edf1d6;
+}
+
+.copyrights{
+  color: #edf1d6;
+  margin-top: 40px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
