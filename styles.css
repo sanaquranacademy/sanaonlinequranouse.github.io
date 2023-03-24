@@ -118,7 +118,7 @@ body {
 }
 .course-img{
   width: 30%; 
-  height: 50%;
+  height: 40%;
   margin-bottom: 5px;
 }
 
@@ -126,7 +126,7 @@ body {
   text-align: center;
    border: solid 1px #9dc08b;
    margin :5px 0;
-   padding: 10px 5px 0 5px;
+   padding: 10px 5px;
 }
 
 
